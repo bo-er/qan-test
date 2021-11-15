@@ -13,6 +13,7 @@ import (
 	"github.com/jmoiron/sqlx/reflectx"
 
 	_ "github.com/go-sql-driver/mysql"
+	_ "github.com/golang-migrate/migrate/v4/database/mysql"
 	"github.com/percona/qan-api2/migrations"
 )
 
